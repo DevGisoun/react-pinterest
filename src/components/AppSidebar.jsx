@@ -41,7 +41,10 @@ export function AppSidebar() {
                         <SidebarMenu>
                             {group1.map((item) => (
                                 <SidebarMenuItem key={item.title}>
-                                    <SidebarMenuButton className="px-8" asChild>
+                                    <SidebarMenuButton
+                                        className="px-8 py-6"
+                                        asChild
+                                    >
                                         <a href={item.url}>
                                             <item.icon />
                                             <span>{item.title}</span>
@@ -61,7 +64,10 @@ export function AppSidebar() {
                         <SidebarMenu>
                             {group2.map((item) => (
                                 <SidebarMenuItem key={item.title}>
-                                    <SidebarMenuButton className="px-8" asChild>
+                                    <SidebarMenuButton
+                                        className="px-8 py-6"
+                                        asChild
+                                    >
                                         <a href={item.url}>
                                             <item.icon />
                                             <span>{item.title}</span>
